@@ -12,7 +12,7 @@ order of one or "constant time"
 executes the same amount of time regardless of number of scale of data set
 
 O(n)
-order of n
+order of n or "linear time"
 
 algo time to complete grows in direct proportion to the data
 takes longer as more data is included
