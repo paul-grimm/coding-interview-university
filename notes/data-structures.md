@@ -50,6 +50,9 @@ Useful for when a multi dimensional array is needed but data is not uniform
 ## Linked List
 
 Main advantage is constant time adding value to front of list compared to linear time adding to array?
+However, accessing an element is linear time because you have to traverse the nodes.
 
+Apparently, there are not many great use cases for using a linked list given the memory compactness advantage of arrays and access.
 
+One good use case that I found was a web browser history. Pressing forward/back in browser would efficiently move through linked list.
 
