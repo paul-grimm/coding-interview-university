@@ -45,3 +45,11 @@ ArrayList
 
 Array of arrays
 
+Useful for when a multi dimensional array is needed but data is not uniform
+
+## Linked List
+
+Main advantage is constant time adding value to front of list compared to linear time adding to array?
+
+
+
