@@ -66,3 +66,17 @@ Can be implemented using an array (fixed size) or a linked list (dynamic).
 
 Use case: find if parenths or brackets have closing pair.
 
+LIFO
+
+## Queues
+
+
+Collection of values where interactions happen at the bottom. Oldest added key gets removed first. Enqueue and dequeue. Like a line of customers: first come, first serve.
+
+Can be implemented using a linked list by adding new elements to the tail. Dequeue would remove element where head pointer is referencing.
+
+Can also be implemented with an array but could be less efficient because of fixed size and wasted space for buffer between read and write indexes.
+
+All operations should be implemented using constant time. Otherwise, un-optimal approach has been taken such as using a linked list and enqueu at head and dequeue at tail which would be o(n).
+
+FIFO
