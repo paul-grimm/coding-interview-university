@@ -56,3 +56,13 @@ Apparently, there are not many great use cases for using a linked list given the
 
 One good use case that I found was a web browser history. Pressing forward/back in browser would efficiently move through linked list.
 
+## Stacks
+
+Collection of values where the interactions happen at the top. Like a stack of books, you can add (push) to the top, retrieve from the top (top), or remove from the top (pop).
+
+Cannot retrieve from middle or bottom.
+
+Can be implemented using an array (fixed size) or a linked list (dynamic).
+
+Use case: find if parenths or brackets have closing pair.
+
