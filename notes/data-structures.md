@@ -105,3 +105,11 @@ Use case: path optimization, shortest path such as Google Maps, family tree
 - Edges do not represent the direction of the vertices
 
 Use case: recommendation engines such as Yelp local recommendations where user location and business location are vertices and recommendation is the edge, computer network, social network
+
+### Cyclic Graph
+
+Possible to start from a node and follow a path where you arrive at the same node you began. Trivial in undirected graphs as edges can be bidirectional. 
+
+### Acyclic Graph
+
+Graphs that contain no pathways to get back to original node. Directed Acyclic Graph represents this concept. 
