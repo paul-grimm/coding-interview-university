@@ -80,3 +80,7 @@ Can also be implemented with an array but could be less efficient because of fix
 All operations should be implemented using constant time. Otherwise, un-optimal approach has been taken such as using a linked list and enqueu at head and dequeue at tail which would be o(n).
 
 FIFO
+
+## Sets
+
+Collection of **UNIQUE** values. Differ from arrays or other data structures in that they only allow non-repeated, unique values.
