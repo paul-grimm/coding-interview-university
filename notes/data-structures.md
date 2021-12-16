@@ -84,3 +84,24 @@ FIFO
 ## Sets
 
 Collection of **UNIQUE** values. Differ from arrays or other data structures in that they only allow non-repeated, unique values.
+
+## Graphs
+
+Non-linear (non-sequential) data structure consisting of nodes and edges. Nodes can also be referred to as vertices. Edge connects any two nodes in the graph.
+
+Many practical use cases for using graphs: representing networks such as paths in a city, phone network, or social network (person would be a node/vertex). Each node is a structure and contains it's own internal data like name, gender, etc.
+
+### Directed Graph
+
+- Directed graphs contain an ordered pair of vertices (V1, V2)
+- (initial node, terminal node)
+- Edges represent direction of the vertices
+
+Use case: path optimization, shortest path such as Google Maps, family tree
+
+### Undirected Graph
+
+- Undirected graphs contain unordered pair of vertices (V1, V3), (V3, V1)
+- Edges do not represent the direction of the vertices
+
+Use case: recommendation engines such as Yelp local recommendations where user location and business location are vertices and recommendation is the edge, computer network, social network
