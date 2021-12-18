@@ -113,3 +113,21 @@ Possible to start from a node and follow a path where you arrive at the same nod
 ### Acyclic Graph
 
 Graphs that contain no pathways to get back to original node. Directed Acyclic Graph represents this concept. 
+
+## Hashing
+
+### Dictionary
+
+Collection of items that contains unique key that identifies the item. An item is a key/value pair.
+
+Search by key which returns the item associated with key or does not exist.
+
+Example use case: databases, network router keeping ip/address, keep track of count of a specific word in a document, substring of string
+
+Like arrays but can use things other than integers as a key
+
+**prehash** = map keys to non-negative integers to use as index in table
+
+**hash** = take all possible keys and reduce down to a small set which is called a hash table. idea is to create a hash table around the same size as the number of items that need to be stored. *this is a hashing function*
+
+**chaining** = way of dealing with collisions in the hash table. you store items that happen to map to the same index using a linked list
